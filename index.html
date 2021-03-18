@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Binary Search</title>
+  </head>
+  <body>
+    <h1>Binary Search</h1>
+    <div class="forms">
+      <form class="insert" id="insert">
+        <label for="insert-input">Insert:</label>
+        <input type="text" id="insert-input" autocomplete="off" />
+      </form>
+      <form class="search" id="search">
+        <label for="search-input">Search:</label>
+        <input type="text" id="search-input" autocomplete="off" />
+      </form>
+    </div>
+
+    <div class="info">
+      <div class="info-item">
+        <h3>Head</h3>
+        <span id="head"></span>
+      </div>
+      <div class="info-item">
+        <h3>Mid</h3>
+        <span id="mid"></span>
+      </div>
+      <div class="info-item">
+        <h3>Tail</h3>
+        <span id="tail"></span>
+      </div>
+      <div class="info-item">
+        <h3>Search Value</h3>
+        <span id="current-search"></span>
+      </div>
+    </div>
+
+    <div class="list-container" id="list-container">
+      <div class="list" id="list">
+        <div class="list-item" data-id="1">1</div>
+        <div class="list-item" data-id="2">2</div>
+        <div class="list-item" data-id="3">3</div>
+        <div class="list-item" data-id="4">4</div>
+        <div class="list-item" data-id="5">5</div>
+        <div class="list-item" data-id="6">6</div>
+        <div class="list-item" data-id="7">7</div>
+        <div class="list-item" data-id="8">8</div>
+        <div class="list-item" data-id="9">9</div>
+      </div>
+      <div class="active-selection" id="active-selection"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
